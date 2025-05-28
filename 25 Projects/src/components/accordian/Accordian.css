@@ -1,0 +1,59 @@
+/* Accordion.css */
+.accordion-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 2rem auto;
+    font-family: Arial, sans-serif;
+    }
+
+    .accordion-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+
+    .accordion-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+    }
+
+    .accordion-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    }
+
+    .accordion-heading:hover {
+        background-color: #625858;
+    }
+
+    .accordion-content {
+        font-size: 0.9rem;
+        color: #333;
+        padding: 0.5rem 1rem;
+    }
+
+    .toggle-button {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #007bff; /* Bootstrap blue */
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .toggle-button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+      }
