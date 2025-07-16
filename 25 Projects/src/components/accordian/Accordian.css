@@ -5,9 +5,10 @@
     max-width: 600px;
     margin: 2rem auto;
     font-family: Arial, sans-serif;
+    height: 100vh;
     }
 
-    .accordion-title {
+    .title {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 1rem;

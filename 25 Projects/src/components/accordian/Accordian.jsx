@@ -50,7 +50,7 @@ function Accordian() {
 
   return (
     <div className="accordion-container">
-        <h1 className="accordion-title">Accordian</h1>
+        <h1 className="title">Accordian</h1>
         <button 
             className="toggle-button" 
             onClick={()=>{
